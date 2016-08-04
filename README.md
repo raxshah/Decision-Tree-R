@@ -13,3 +13,8 @@ In this repo, I have developed binary decision tree from scratch using R. I have
 4. Modified decision tree to prevent the overfitting by using **'validation set'** prevention method. Used a validation set that consists of 25% of the training partition. All evaluation is carried out using 10-fold cross-validation.
 
 5. Modified decision tree to prevent the overfitting by using the **'minimum description length principle'** prevention method. All evaluation is carried out using 10-fold cross-validation.
+
+
+## Limitation
+1. It will work when all the attributes are Numeric
+2. It will work for Binary classifier only
